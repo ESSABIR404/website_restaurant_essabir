@@ -528,7 +528,7 @@ header.sticky li a:hover {
     }
 
     .row .col50 img {
-        margin-left: 18%;
+        width: 100%;
     }
 
     .contenu p:nth-child(2) {
