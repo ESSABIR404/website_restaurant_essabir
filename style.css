@@ -464,6 +464,7 @@ header.sticky li a:hover {
 }
 
 @media (max-width: 991px) {
+    
     header, 
     header.sticky {
         padding: 10px 20px;
@@ -526,9 +527,13 @@ header.sticky li a:hover {
     .banniere .contenu h2 {
         font-size: 2em;
     }
+    .menu .contenu .box {
+        width: 100%;
+    }
 
     .row .col50 img {
         width: 100%;
+
     }
 
     .contenu p:nth-child(2) {
@@ -575,6 +580,10 @@ header.sticky li a:hover {
 }
 
 @media (max-width: 480px) {
+    .menu .contenu .box {
+        width: 100%; /* Réglage de la largeur à 100% pour une disposition en une seule colonne */
+        margin: 1.5% 0; /* Ajout de marges pour espacer les boîtes */
+    }
     .banniere .contenu h2 {
         font-size: 2.2em;
         color: #fff;
@@ -593,5 +602,8 @@ header.sticky li a:hover {
 
     .temoignage p {
         text-align: center;
+    }
+    .menu .contenu .box {
+        width: 100%;
     }
 }
